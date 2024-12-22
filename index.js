@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     var randomNumber2 = Math.floor(6 * Math.random()) + 1; // Player 2
 
     // Set the images for both players to the random numbers' paths
-    document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
+    document.querySelector(".img1").setAttribute("src", "dice" + randomNumber1 + ".png");
 
-    document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
+    document.querySelector(".img2").setAttribute("src", "dice" + randomNumber2 + ".png");
 
     // Determine the winner of the game
     if (randomNumber1 > randomNumber2) {
